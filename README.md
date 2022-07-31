@@ -1,3 +1,3 @@
-# LGMVIP-Task-1
+# LGMVIP Task-1
 ## TODO App
 
