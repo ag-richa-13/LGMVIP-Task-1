@@ -32,8 +32,8 @@ header {
 }
 
 header h1{ 
-	font-size: 3rem;
-	font-weight: 500;
+	font-size: 2rem;
+	font-weight: 400;
 	color: var(--heading);
 	margin-bottom: 1rem;
 }
@@ -52,11 +52,11 @@ input, button {
 #add-new-task {
 	flex: 1 1 0%;
 	background-color: var(--darker);
-	padding: 1.5rem;
+	padding: 1rem;
 	border-radius: 1rem;
 	margin-right: 1rem;
 	color: var(--light);
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 #add-new-task::placeholder {
@@ -65,7 +65,7 @@ input, button {
 
 #new-task-submit {
 	color: var(--red);
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	font-weight: 700;
 	background-image: linear-gradient(to right, var(--red), var(--purple));
 	-webkit-background-clip: text;
@@ -93,8 +93,8 @@ main {
 }
 
 .task-list h2 {
-	font-size: 2rem;
-	font-weight: 400;
+	font-size: 1.5rem;
+	font-weight: 500;
 	color: var(--heading);
 	margin-bottom: 1rem;
 }
@@ -103,7 +103,7 @@ main {
 	display: flex;
 	justify-content: space-between;
 	background-color: var(--darker);
-	padding: 1.5rem;
+	padding: 1rem;
 	border-radius: 1rem;
 	margin-bottom: 1rem;
 }
@@ -114,7 +114,7 @@ main {
 
 .task .content .text {
 	color: var(--light);
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	width: 100%;
 	display: block;
 	transition: 0.4s;
